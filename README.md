@@ -33,7 +33,7 @@ For **development**:
 - `git clone https://github.com/AntonOsika/gpt-engineer.git`
 - `cd gpt-engineer`
 - `pip install -e .`
-  - (or: `make install && source venv/bin/activate` for a venv)
+  - (or: `make install && source env/bin/activate` for a venv)
 
 **Setup**
 
