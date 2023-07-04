@@ -1,6 +1,3 @@
-## get the openai key from .env file
-
-  
 
 tasks:
   - init: make
