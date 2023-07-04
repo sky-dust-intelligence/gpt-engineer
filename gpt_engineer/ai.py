@@ -1,3 +1,4 @@
+import os
 from __future__ import annotations
 
 import logging
@@ -9,6 +10,8 @@ import openai
 import tiktoken
 
 logger = logging.getLogger(__name__)
+
+set openai_api_key=os.getenv("OPENAI_API_KEY")
 
 
 @dataclass
